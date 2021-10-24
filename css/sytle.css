@@ -1,0 +1,33 @@
+* {
+    font-family: 'Kalam', cursive;
+}
+
+li {
+    margin: 0em 2em;
+}
+
+table {
+    text-align: center;
+}
+
+img {
+    width: 12em;
+    height: 7em;
+}
+
+.col-lg-4>img {
+    width: 15em;
+    height: 12em;
+    margin-top: 5em;
+}
+
+@media screen and (max-width: 993px) {
+    .col-lg-4>img {
+        display: none
+    }
+} 
+
+.mail {
+    margin-top: 3rem;
+    text-align: right;
+}
